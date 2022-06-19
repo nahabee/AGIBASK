@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const LandingPage = () => {
   return (
@@ -15,10 +16,30 @@ const LandingPage = () => {
         <p className="font-body text-lg text-white ">
           The community you need to find your next green mission.
         </p>
-        <div className="flex flex-row w-40 absolute bottom-0 right-50 ">
-          <img src="../public/assets/nature.png" alt="logo feuille" />
-          <img src="../public/assets/monde.png" alt="logo planete" />
-          <img src="../public/assets/ocean.png" alt="logo ocean" />
+        <div className="flex flex-row w-40 absolute bottom-0 right-60 ">
+          <Link to="/Forest">
+            <img
+              className="absolute bottom-0 left-40 hover:scale-75 ease-in duration-500 "
+              src="../public/assets/nature.png"
+              alt="logo feuille"
+            />
+          </Link>
+
+          <Link to="/AboutU">
+            {" "}
+            <img
+              className="absolute bottom-0  hover:scale-75 ease-in duration-500"
+              src="../public/assets/monde.png"
+              alt="logo planete"
+            />{" "}
+          </Link>
+          <Link to="/Ocean">
+            <img
+              className="absolute bottom-0 right-40 hover:scale-75 ease-in duration-500"
+              src="../public/assets/ocean.png"
+              alt="logo ocean"
+            />
+          </Link>
         </div>
       </div>
 
