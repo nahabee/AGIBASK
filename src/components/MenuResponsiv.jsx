@@ -9,24 +9,25 @@ const MenuResponsiv = ({ showMenu, active }) => {
       <ul
         className={
           active
-            ? "flex-col flex items-center fixed inset-0 full bg-black backdrop-blur-sm gap-20 justify-center"
+            ? "flex-col flex items-center fixed inset-0 full bg-green-dark backdrop-blur-sm gap-20 justify-center"
             : "hidden"
         }
       >
         <div className="absolute right-6 xs:hidden top-6 scale-x-100 z-50">
           <Close onClick={showMenu} className="cursor-pointer scale-x-100" />
         </div>
-        <li className=" absolute hover:underline decoration-solid decoration-primary-1">
-          <Link to="/">HOME</Link>
+        <li className=" absolute top-10 hover:underline decoration-solid font-body text-xl mt-40">
+          <Link to="/">Home</Link>
         </li>
-        <li className="absolute hover:underline decoration-solid decoration-primary-1 z-50">
-          <Link to="/Ocean">OCEAN</Link>
+        <li className="absolute mt-60 top-20 hover:underline decoration-solid font-body text-xl">
+          {" "}
+          <Link to="/Ocean">Ocean</Link>
         </li>
-        <li className="absolute hover:underline decoration-solid decoration-primary-1 z-50">
-          <Link to="/Forest">FOREST</Link>
+        <li className="absolute top-30 mt-52 hover:underline decoration-solid font-body text-xl">
+          <Link to="/Forest">Forest</Link>
         </li>
-        <li className="absolute hover:underline decoration-solid decoration-primary-1 z-50">
-          <Link to="/AboutUs">ABOUT US</Link>
+        <li className="absolute top-48 mt-96 hover:underline decoration-solid font-body text-xl">
+          <Link to="/AboutUs">About Us</Link>
         </li>
       </ul>
     </div>
