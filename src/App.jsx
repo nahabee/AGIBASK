@@ -8,6 +8,7 @@ import BeachCard from "./components/BeachCard";
 import databeach from "./data/databeach";
 import ForestCard from "./components/ForestCard";
 import FormJoin from "./components/FormJoin";
+import AboutUs from "./components/AboutUs";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/Home" element={<HomePage />} />
           <Route path="/Ocean" element={<FindYourOcean />} />
           <Route path="/Forest" element={<FindYourForest />} />
+          <Route path="/AboutUs" element={<AboutUs />} />
         </Routes>
       </HashRouter>{" "}
     </div>
