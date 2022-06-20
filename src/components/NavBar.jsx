@@ -22,23 +22,23 @@ const NavBar = () => {
   };
   return (
     <div className="relative">
-      <nav className="font-title absolute bg-transparent sm:justify-around ">
-        <ul className="w-4/6 space-x-4 flex justify-around bg-transparent lg:hidden">
-          <li className="hover:underline decoration-solid ">
+      <nav className="font-title absolute  bg-transparent sm:justify-around ">
+        <ul className="space-x-72 ml-40 flex bg-transparent mt-5 text-xl lg:hidden">
+          <li className="hover:underline decoration-solid hover:text-white">
             <Link to="/">HOME </Link>
           </li>
-          <li className="hover:underline decoration-solid ">
+          <li className="hover:underline decoration-solid hover:text-white">
             <Link to="/Ocean">OCEAN</Link>
           </li>
-          <li className="hover:underline decoration-solid">
+          <li className="hover:underline decoration-solid text-white hover:text-black">
             <Link to="/Forest">FOREST</Link>
           </li>
-          <li className="hover:underline decoration-solid ">
-            <Link to="/AboutUs">ABOUT US</Link>
+          <li className="hover:underline decoration-solid flex text-white hover:text-black flex-row">
+            <Link to="/AboutUs">ABOUT</Link>
           </li>
         </ul>
       </nav>
-      <div className="fixed right-6 xs:hidden top-5 scale-x-100 z-40 text-white">
+      <div className="fixed right-6 xs:hidden top-5 scale-x-100 z-40 text-white  ">
         <MenuOutlined onClick={showMenu} className="scale-150 cursor-pointer" />
       </div>
       <div className="fixed z-50 text-white">

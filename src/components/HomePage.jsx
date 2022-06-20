@@ -30,8 +30,7 @@ const HomePage = () => {
           </NavLink>
         </div>
       </div>
-      <div className="absolute top-0 left-80 w-96">
-        {" "}
+      <div className="absolute top-0 ">
         <NavBar />
       </div>
     </div>
