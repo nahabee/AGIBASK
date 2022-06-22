@@ -8,11 +8,11 @@ const HomePage = () => {
         <div className="w-full h-full relative ">
           <img
             className="object-cover h-screen w-screen"
-            src="../public/assets/ocean.jpg"
+            src="../public/assets/darkwave.jpg"
             alt="ocean"
           />
           <NavLink to="/Ocean">
-            <button className="bg-none border border-blue-dark absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 py-4 px-8 rounded-full text-blue-dark hover:text-white font-title text-2xl hover:tracking-widest">
+            <button className="bg-none border border-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 py-4 px-8 rounded-full text-white font-title text-2xl hover:tracking-widest">
               OCEAN
             </button>
           </NavLink>
@@ -20,11 +20,11 @@ const HomePage = () => {
         <div className="w-full h-full relative">
           <img
             className="object-cover h-screen w-screen "
-            src="../public/assets/foret.jpeg"
+            src="../public/assets/greendark.jpg"
             alt="foret"
           />
           <NavLink to="/Forest">
-            <button className="bg-none border border-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 py-4 px-8 rounded-full text-white hover:text-green-light font-title text-2xl hover:tracking-widest">
+            <button className="bg-none border border-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 py-4 px-8 rounded-full text-white  font-title text-2xl hover:tracking-widest">
               FORET
             </button>
           </NavLink>

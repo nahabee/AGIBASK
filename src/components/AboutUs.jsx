@@ -1,7 +1,12 @@
+import NavBar from "./NavBar";
+
 const AboutUs = () => {
   return (
-    <div>
-      <h1> cc hibou </h1>
+    <div className=" bg-green-dark h-screen w-scren  ">
+      <NavBar />
+      <h1 className="flex text-white font-title text-6xl justify-center  ">
+        ABOUT US
+      </h1>
     </div>
   );
 };

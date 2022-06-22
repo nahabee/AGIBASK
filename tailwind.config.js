@@ -18,23 +18,27 @@ module.exports = {
       // => @media (max-width: 639px) { ... }
     },
     extend: {
+      borderRadius: {
+        large: "50px",
+      },
       colors: {
         green: {
-          dark: "#1d231d",
+          dark: "#020f01",
           medium: "#5f745f",
           light: "#91a491",
         },
         blue: {
-          dark: "#294552",
+          dark: "#04151c",
           medium: "#597884",
           light: "#acc4ce",
         },
       },
       fontFamily: {
         title: ["CabinBold"],
-        body: ["MLight"],
+        body: ["Anek"],
       },
     },
   },
+
   plugins: [],
 };

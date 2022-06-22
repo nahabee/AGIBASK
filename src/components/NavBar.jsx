@@ -24,16 +24,16 @@ const NavBar = () => {
     <div className="relative">
       <nav className="font-title absolute  bg-transparent sm:justify-around ">
         <ul className="space-x-72 ml-40 flex bg-transparent mt-5 text-xl lg:hidden">
-          <li className="hover:underline decoration-solid hover:text-white">
+          <li className="hover:underline decoration-solid text-white">
             <Link to="/">HOME </Link>
           </li>
-          <li className="hover:underline decoration-solid hover:text-white">
+          <li className="hover:underline decoration-solid text-white">
             <Link to="/Ocean">OCEAN</Link>
           </li>
-          <li className="hover:underline decoration-solid text-white hover:text-black">
+          <li className="hover:underline decoration-solid text-white ">
             <Link to="/Forest">FOREST</Link>
           </li>
-          <li className="hover:underline decoration-solid flex text-white hover:text-black flex-row">
+          <li className="hover:underline decoration-solid flex text-white  flex-row">
             <Link to="/AboutUs">ABOUT</Link>
           </li>
         </ul>
