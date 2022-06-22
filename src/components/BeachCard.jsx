@@ -5,10 +5,10 @@ import databeach from "../data/dataBeach";
 const BeachCard = () => {
   const { id } = useParams();
   const beach = databeach.find((beach) => beach.id == id);
-
+  // au clic la plage
   return (
-    <div className="beachCard">
-      <h1 className="beachCard__title">{beach.name}</h1>
+    <div className="rounded-2xl ">
+      <h1 className="">{beach.name}</h1>
       <img className="beachCard__image" src={beach.img} alt={beach.name} />
       <p className="beachCard__text">{beach.desc}</p>
       {beach.events.dates[0] == "jj-mm-aaaa" ? (

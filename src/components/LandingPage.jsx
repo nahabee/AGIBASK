@@ -25,7 +25,7 @@ const LandingPage = () => {
             />
           </Link>
 
-          <Link to="/AboutU">
+          <Link to="/AboutUs">
             {" "}
             <img
               className="absolute bottom-0  hover:scale-75 ease-in duration-500"

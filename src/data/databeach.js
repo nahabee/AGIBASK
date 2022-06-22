@@ -193,14 +193,14 @@ const databeach = [
       dates: ["jj-mm-aaaa"],
       users: [],
     },
-    desc: "Petite plage VIP pour les locaux biarrots, remplie de surfer d'une autre époque.",
+    desc: "Petite plage VIP pour les locaux biarrots, remplie de surfer d'une autre époque. Entre amis ou en famille c'est le lieu idéal pour se ressourcer",
     img: "./assets/beach-img/marbella.jpg",
     missions:
       "Ramassage des déchets et sensibilisation au réchauffement climatique",
   },
   {
     id: 15,
-    name: "Milady",
+    name: "La Milady",
     length: "460m",
     location: "Biarritz",
     events: {
