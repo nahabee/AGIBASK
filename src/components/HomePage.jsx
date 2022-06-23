@@ -4,7 +4,7 @@ import NavBar from "./NavBar";
 const HomePage = () => {
   return (
     <div className="relative">
-      <div className="flex w-full h-full relative ">
+      <div className="flex w-full h-full relative sm:flex-col">
         <div className="w-full h-full relative ">
           <img
             className="object-cover h-screen w-screen"
@@ -16,6 +16,11 @@ const HomePage = () => {
               OCEAN
             </button>
           </NavLink>
+          <img
+            className="absolute top-[94%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-36  md:hidden"
+            src="../public/assets/scroll.png"
+            alt="scroll mouse"
+          />
         </div>
         <div className="w-full h-full relative">
           <img
