@@ -51,8 +51,8 @@ const LandingPage = () => {
       </div>
 
       <NavLink to="/Home">
-        <button className="font-body w-52 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 p-5 rounded-full bg-white text-lg hover:text-green-light ">
-          Get Started
+        <button className="font-title w-52 text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 p-5 rounded-full border border-white text-lg hover:tracking-widest ">
+          GET STARTED
         </button>
       </NavLink>
     </div>
