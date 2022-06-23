@@ -4,21 +4,9 @@ import { MenuOutlined } from "@material-ui/icons";
 import MenuResponsiv from "./MenuResponsiv";
 
 const NavBar = () => {
-  // --> change nav background on scroll <---
-  const [color, setColor] = useState(false);
-  const changeColor = () => {
-    if (window.scrollY >= 10) {
-      setColor(true);
-    } else {
-      setColor(false);
-    }
-  };
-  window.addEventListener("scroll", changeColor);
-
   const [active, setActive] = useState(false);
   const showMenu = () => {
     setActive(!active);
-    if (color) setColor(false);
   };
   return (
     <div className="relative">

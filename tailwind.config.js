@@ -11,7 +11,7 @@ module.exports = {
       xs: { min: "1023px" },
       // => @media (min-width: 769px) { ... }
 
-      md: { max: "767px" },
+      md: { min: "767px" },
       // => @media (max-width: 767px) { ... }
 
       sm: { max: "639px" },

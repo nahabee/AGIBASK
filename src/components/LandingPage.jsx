@@ -4,22 +4,29 @@ import { Link } from "react-router-dom";
 const LandingPage = () => {
   return (
     <div className="flex flex-row">
-      <div className=" flex flex-col justify-start w-1/2 ">
+      <div className=" flex flex-col justify-start w-1/2 sm:hidden ">
         <img
           className="object-cover h-screen"
           src="../public/assets/nature.jpg"
           alt="feuilles verts"
         />
       </div>
-      <div className="flex flex-col text-center w-1/2 h-screen bg-green-dark ">
-        <h1 className="text-white font-title text-8xl mt-16 ">AGI-BASK</h1>
-        <p className="font-body text-lg text-white ">
+      <div className="flex flex-col text-center w-1/2 h-screen bg-green-dark sm:w-screen ">
+        <h1 className="text-white font-title text-8xl mt-16 sm:text-5xl">
+          AGI-BASK
+        </h1>
+        <p className="font-body text-lg text-white sm:mt-10">
           The community you need to find your next green mission.
         </p>
+        <img
+          className="object-cover h-screen md:hidden"
+          src="../public/assets/nature.jpg"
+          alt="feuilles verts"
+        />
         <div className="flex flex-row w-40 absolute bottom-0 right-60 ">
           <Link to="/Forest">
             <img
-              className="absolute bottom-0 left-40 hover:scale-75 ease-in duration-500 "
+              className="absolute bottom-0 left-40 hover:scale-75 ease-in duration-500 sm:hidden "
               src="../public/assets/nature.png"
               alt="logo feuille"
             />
@@ -28,14 +35,14 @@ const LandingPage = () => {
           <Link to="/AboutUs">
             {" "}
             <img
-              className="absolute bottom-0  hover:scale-75 ease-in duration-500"
+              className="absolute bottom-0  hover:scale-75 ease-in duration-500 sm:hidden"
               src="../public/assets/monde.png"
               alt="logo planete"
             />{" "}
           </Link>
           <Link to="/Ocean">
             <img
-              className="absolute bottom-0 right-40 hover:scale-75 ease-in duration-500"
+              className="absolute bottom-0 right-40 hover:scale-75 ease-in duration-500 sm:hidden"
               src="../public/assets/ocean.png"
               alt="logo ocean"
             />
