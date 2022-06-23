@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import Footer from "./Footer";
+import Subscribe from "./Subscribe";
+
 import ReactPlayer from "react-player";
 
 import { Link } from "react-router-dom";
@@ -31,34 +33,41 @@ const AboutUs = () => {
             />
           </Link>
         </div>
-        <div className="w-screen h-screen bg-blue-dark">
-          <div className="w-1/3 mt-20 ml-10 sm:w-4/5">
-            <div className="flex flex-col p-2 bg-transparent border-t border-b rounded-3xl font-body text-justify text-white">
-              <h1 className="text-6xl text-left mx-6 mb-3 sm:text-5xl">
+        <div className="w-screen h-screen bg-green-dark">
+          <div className="w-screen justify-around mt-20 flex sm:flex-col sm:items-center sm:gap-5 sm:mt-2 sm:w-auto sm:justify-self-stretch">
+            <div className="flex flex-col w-2/5 p-2 bg-transparent font-body text-justify text-white sm:w-4/5">
+              <h1 className="text-6xl font-title text-left pb-10 sm:text-5xl">
                 {" "}
                 ABOUT US,
               </h1>
-              <p className="mx-6 overscroll-x-auto overflow-auto h-60 mb-3 cursor-ns-resize sm:mb-6">
-                A plateform and foundation for connecting individuals and
-                associations for ecological and collective purposes in the
-                Basque country. The team is sensitive, a bit green and above all
-                "BASK", we cultivate the hope that one day, perhaps, our
-                beautiful region will be respected at its fair value...So how
-                are we going to fight to PRESERVE OUR REGION? With a simple and
-                effective interface to connect more easily the actors of the
-                protection of our beautiful region in order to carry out more
-                concrete and sustainable actions. For who? Volunteers,
-                associations, enthusiasts, motivated! When? Throughout the year,
-                take advantage of the platform to follow live event proposals,
-                register there or even create your own. The goal? Reduce the
+              <p className="overscroll-x-auto overflow-auto h-60 text-lg cursor-ns-resize sm:mb-6 sm:text-base">
+                <span className="text-green-gold">
+                  A plateform and foundation
+                </span>{" "}
+                for connecting individuals and associations for ecological and
+                collective purposes in the Basque country.{" "}
+                <span className="text-green-gold">The team</span> is sensitive,
+                a bit green and above all "BASK", we cultivate the hope that one
+                day, perhaps, our beautiful region will be respected at its fair
+                value...So how are we going to fight to PRESERVE OUR REGION?
+                With a simple and effective interface to connect more easily the
+                actors of the protection of our beautiful region in order to
+                carry out more concrete and sustainable actions.{" "}
+                <span className="text-green-gold">For who?</span> Volunteers,
+                associations, enthusiasts, motivated!{" "}
+                <span className="text-green-gold">When?</span> Throughout the
+                year, take advantage of the platform to follow live event
+                proposals, register there or even create your own.{" "}
+                <span className="text-green-gold">The goal?</span> Reduce the
                 impact of pollution and educate the general public to safeguard
                 our territory.
               </p>
-              <img
-                className="absolute top-[67%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-20 md:hidden"
-                src="../public/assets/scroll.png"
-                alt="scroll mouse"
-              />
+              <a className="text-s text-green-gold mt-2 italic ">
+                Scroll to read more.
+              </a>
+            </div>
+            <div className="flex justify-end items-right sm:h-auto ">
+              <Subscribe />
             </div>
           </div>
           <Footer />
@@ -78,7 +87,7 @@ const AboutUs = () => {
               <li className="hover:underline decoration-solid text-black ">
                 <Link to="/Forest">FOREST</Link>
               </li>
-              <li className="hover:underline decoration-solid flex text-black  flex-row">
+              <li className="hover:underline decoration-solid flex text-black flex-row">
                 <Link to="/AboutUs">ABOUT</Link>
               </li>
             </ul>
