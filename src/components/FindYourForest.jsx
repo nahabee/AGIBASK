@@ -12,7 +12,7 @@ const FindYourForest = () => {
           <img
             className="object-cover h-screen w-screen"
             src="../public/assets/green.jpg"
-            alt="ocean"
+            alt="forest"
           />
         </div>
       </div>

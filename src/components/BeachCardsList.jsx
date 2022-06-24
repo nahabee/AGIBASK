@@ -2,7 +2,19 @@ import React from "react";
 import PropTypes from "prop-types";
 
 const BeachCardsList = ({ beach }) => {
-  return <></>;
+  return (
+    <div className="flex flex-col text-white w-96 mt-8 text-justify font-body sm:w-40">
+      <img
+        className="shrink-0 w-96 h-48 rounded-lg shadow-xl bg-white"
+        src={beach.img}
+        alt={beach.name}
+      />
+
+      <h1 className="">{beach.name}</h1>
+      <h2 className="">{beach.location}</h2>
+      <p className="">{beach.desc}</p>
+    </div>
+  );
 };
 
 BeachCardsList.propTypes = {

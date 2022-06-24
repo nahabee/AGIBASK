@@ -7,21 +7,21 @@ const BeachCard = () => {
   const beach = databeach.find((beach) => beach.id == id);
   // au clic la plage
   return (
-    <div className="rounded-2xl ">
+    <div className="shrink-0 w-96 h-48 rounded-lg shadow-xl bg-white">
       <h1 className="">{beach.name}</h1>
-      <img className="beachCard__image" src={beach.img} alt={beach.name} />
-      <p className="beachCard__text">{beach.desc}</p>
+      <img className="" src={beach.img} alt={beach.name} />
+      <p>{beach.desc}</p>
       {beach.events.dates[0] == "jj-mm-aaaa" ? (
-        <h2 className="beachCard__noDate">Pas de date disponible...</h2>
+        <h2 className="">Pas de date disponible...</h2>
       ) : (
         beach.events.dates.map((date, index) => (
-          <div className="beachCard__date" key={index}>
+          <div className="" key={index}>
             {date}
           </div>
         ))
       )}
       <NavLink to="/Form">
-        <div className="beachCard__button">Nouveau Projet</div>
+        <div className="">Nouveau Projet</div>
       </NavLink>
     </div>
   );
