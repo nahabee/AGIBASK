@@ -30,8 +30,9 @@ module.exports = {
         },
         blue: {
           dark: "#04151c",
-          medium: "#597884",
+          medium: "",
           light: "#acc4ce",
+          gold: "#0a373d",
         },
       },
       fontFamily: {
@@ -41,5 +42,8 @@ module.exports = {
     },
   },
 
-  plugins: [],
+  plugins: [
+    require("tailwind-scrollbar-hide"), // add this to your plugins
+    // ...
+  ],
 };
