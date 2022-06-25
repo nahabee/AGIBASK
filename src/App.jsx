@@ -9,6 +9,7 @@ import databeach from "./data/databeach";
 import ForestCard from "./components/ForestCard";
 import FormJoin from "./components/FormJoin";
 import AboutUs from "./components/AboutUs";
+import OceanCreateCleaning from "./components/OceanCreateCleaning";
 
 function App() {
   return (
@@ -25,6 +26,10 @@ function App() {
           <Route path="/Ocean" element={<FindYourOcean />} />
           <Route path="/Forest" element={<FindYourForest />} />
           <Route path="/AboutUs" element={<AboutUs />} />
+          <Route
+            path="/OceanCreateCleaning"
+            element={<OceanCreateCleaning />}
+          />
         </Routes>
       </HashRouter>{" "}
     </div>

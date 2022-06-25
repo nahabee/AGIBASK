@@ -62,7 +62,7 @@ const AboutUs = () => {
                 impact of pollution and educate the general public to safeguard
                 our territory.
               </p>
-              <a className="text-s text-green-gold mt-2 italic ">
+              <a className="text-sm text-green-gold mt-2 italic ">
                 Scroll to read more.
               </a>
             </div>
