@@ -2,4 +2,3 @@
 The Green Platform
 
 
-WELCOME
