@@ -66,22 +66,25 @@ const FindYourOcean = () => {
               <div className="shrink-0 w-4 sm:w-48"></div>
             </div>
           </div>
-
-          <h1 className="font-title text-white text-center uppercase text-4xl border-y border-blue-gold p-2 -mt-16 ">
-            {" "}
-            JOIN US{" "}
-          </h1>
-          <div className="flex justify-around ">
-            <NavLink to="/OceanCreateCleaning">
-              <button className="hover:bg-blue-gold font-body border border-blue-gold p-2 rounded-lg text-sm text-white mt-8">
-                {" "}
-                CREATE CLEANING SESSION{" "}
-              </button>
-            </NavLink>
-            <button className="hover:bg-blue-gold font-body border border-blue-gold p-2 rounded-lg text-sm text-white mt-8">
+          <div className="mt-8">
+            <h1 className="font-title text-white text-center uppercase text-4xl border-y border-blue-gold p-2 -mt-16 ">
               {" "}
-              JOIN CLEANING SESSION{" "}
-            </button>
+              JOIN US{" "}
+            </h1>
+            <div className="flex justify-around ">
+              <NavLink to="/OceanCreateCleaning">
+                <button className="hover:bg-blue-gold font-body border border-blue-gold p-2 rounded-lg text-sm text-white mt-8">
+                  {" "}
+                  CREATE CLEANING SESSION{" "}
+                </button>
+              </NavLink>
+              <NavLink to="/OceanJoinEvent">
+                <button className="hover:bg-blue-gold font-body border border-blue-gold p-2 rounded-lg text-sm text-white mt-8">
+                  {" "}
+                  JOIN CLEANING SESSION{" "}
+                </button>{" "}
+              </NavLink>
+            </div>
           </div>
         </div>
       </div>

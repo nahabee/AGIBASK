@@ -32,7 +32,7 @@ module.exports = {
           dark: "#04151c",
           medium: "",
           light: "#acc4ce",
-          gold: "#0a2e33",
+          gold: "#0a373d",
         },
       },
       fontFamily: {
