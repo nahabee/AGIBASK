@@ -10,9 +10,9 @@ const BeachCardsList = ({ beach }) => {
         alt={beach.name}
       />
 
-      <h1 className="">{beach.name}</h1>
-      <h2 className="">{beach.location}</h2>
-      <p className="">{beach.desc}</p>
+      <h1 className="font-title uppercase text-2xl">{beach.name}</h1>
+      <h2 className="italic font-body">{beach.location}</h2>
+      <p className="font-body">{beach.desc}</p>
     </div>
   );
 };
