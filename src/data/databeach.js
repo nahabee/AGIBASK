@@ -11,9 +11,9 @@ const databeach = [
         ["Antoine", "Roger"],
       ],
     },
-    desc: "Plage prisée par les touristes, dût aux activités que l'on y retrouve, comme le skate, la patinoire, et notre très aimé McDonalds.",
+    desc: "Beach popular with tourists, due to the activities found there, such as skateboarding, ice skating, and our much loved McDonalds.",
     img: "./assets/beach-img/labarre.jpg",
-    missions: "Ramassage et revalorisation des déchets marins",
+    missions: "Collection and recovery of marine litter",
   },
   {
     id: 2,
@@ -28,10 +28,10 @@ const databeach = [
         ["Salomon", "David"],
       ],
     },
-    desc: "Plage familiale aux grandes étendues d'herbe, de quoi s'occuper en matière de ramssage de déchets, surtout le mercredi soir...",
+    desc: "Family beach with large expanses of grass, enough to take care of in terms of garbage collection, especially on Wednesday evenings...",
     img: "./assets/beach-img/cavalier.jpg",
     missions:
-      "Jeux éducatif sur l'apprentissage du tri selectif au travers du nettoyage des plages",
+      "Educational games on learning selective sorting through beach cleaning",
   },
   {
     id: 3,
@@ -42,9 +42,9 @@ const databeach = [
       dates: ["jj-mm-aaaa"],
       users: [],
     },
-    desc: "Plage à tolérance nudiste, peu fréquenté mais personnes adultes et respectueuses du site en majorité, présence d'un bar en bord de mer avec jus détox au menu",
+    desc: "Beach with nudist tolerance, little frequented but mostly adult people and respectful of the site, presence of a bar by the sea with detox juice on the menu",
     img: "./assets/beach-img/dune.jpg",
-    missions: "Ramassage des déchets et pique-nique à la plage",
+    missions: "Trash collection and picnic at the beach",
   },
   {
     id: 4,
@@ -58,10 +58,10 @@ const databeach = [
         ["Eliot", "Jeff"],
       ],
     },
-    desc: "Voisine des dunes, plage plus sauvage que les autres et peu fréquentée par la jeunesse, on y trouve des plagistes plutôt respectueux de l'environnement dans l'ensemble.",
+    desc: "Next to the dunes, a wilder beach than the others and little frequented by young people, there are beachgoers who are rather respectful of the environment on the whole.",
     img: "./assets/beach-img/ocean.jpg",
     missions:
-      "Nettoyage de la plage au travers de jeux pour sensibiliser les plus jeunes",
+      "Cleaning the beach through games to raise awareness among the youngest",
   },
   {
     id: 5,
@@ -72,10 +72,10 @@ const databeach = [
       dates: ["jj-mm-aaaa"],
       users: [],
     },
-    desc: "Plage à caractère plus jeune, bien que prisée par les surfeurs, son emplacement idéal en fait un plage très fréquenté.",
+    desc: "Beach with a younger character, although popular with surfers, its ideal location makes it a very popular beach.",
     img: "./assets/beach-img/madrague.jpg",
     missions:
-      "Jeux éducatif pour insiter les plus jeunes au respect de l'environnement",
+      "Educational games to encourage the youngest to respect the environment",
   },
   {
     id: 6,
@@ -86,9 +86,9 @@ const databeach = [
       dates: ["07-06-2022"],
       users: [["Dave", "Nat"]],
     },
-    desc: "Plage familiale où il fait bon se prélasser, se dorer la pilule, très prise.",
+    desc: "Family beach where it is good to relax, bask in the pill, very busy.",
     img: "./assets/beach-img/corsaire.jpg",
-    missions: "Ramassage et revalorisation des déchets marins",
+    missions: "Collection and recovery of marine litter",
   },
   {
     id: 7,
@@ -99,9 +99,9 @@ const databeach = [
       dates: ["jj-mm-aaaa"],
       users: [],
     },
-    desc: "A l'instar de ses voisines, plage très prisée par les familles, avec une très forte concentration l'été.",
+    desc: "Like its neighbours, beach very popular with families, with a very high concentration in summer.",
     img: "./assets/beach-img/marinela.jpg",
-    missions: "Ramassage des déchets et pique-nique à la plage",
+    missions: "Trash collection and picnic at the beach",
   },
   {
     id: 8,
@@ -112,9 +112,9 @@ const databeach = [
       dates: ["jj-mm-aaaa"],
       users: [],
     },
-    desc: "Face à la balade des sables d'or, plage fréquentée par une foule du matin au soir, avec bars restaurants et filets de volley-ball",
+    desc: "Facing the promenade of golden sands, beach frequented by a crowd from morning to evening, with bars restaurants and volleyball nets",
     img: "./assets/beach-img/sabledor.jpg",
-    missions: "Ramassage et revalorisation des déchets marins",
+    missions: "Collection and recovery of marine litter",
   },
   {
     id: 9,
@@ -125,10 +125,10 @@ const databeach = [
       dates: ["jj-mm-aaaa"],
       users: [],
     },
-    desc: "Comme son nom l'indique, la plage de la chambre d'amour possède une grotte réputée pour son histoire, où il ne fait pas bon aller quand la marée monte.",
+    desc: "As its name suggests, the beach La Chambre d'Amour has a cave famous for its history, where it is not good to go when the tide rises.",
     img: "./assets/beach-img/chambredamour.jpg",
     missions:
-      "Jeux éducatif sur l'apprentissage du tri selectif au travers du nettoyage des plages",
+      "Educational games on learning selective sorting through beach cleaning",
   },
   {
     id: 10,
@@ -139,9 +139,9 @@ const databeach = [
       dates: ["jj-mm-aaaa"],
       users: [],
     },
-    desc: "Plage en bord de falaise, avec une vue imprenable sur le phare de Biarritz, et son indétrônable Village Vacancier de type Paquebot.",
+    desc: "Beach on the edge of a cliff, with a breathtaking view of the Biarritz lighthouse, and its unbeatable Paquebot-type Vacation Village.",
     img: "./assets/beach-img/vff.jpg",
-    missions: "Ramassage et revalorisation des déchets marins",
+    missions: "Collection and recovery of marine litter",
   },
   {
     id: 11,
@@ -152,10 +152,10 @@ const databeach = [
       dates: ["jj-mm-aaaa"],
       users: [],
     },
-    desc: "Plage en bord de falaise, avec une vue imprenable sur le phare de Biarritz, et son indétrônable Hotel de luxe du Miramar.",
+    desc: "Beach on the edge of the cliff, with a breathtaking view of the Biarritz lighthouse, and its unbeatable Miramar luxury hotel.",
     img: "./assets/beach-img/miramar.jpg",
     missions:
-      "Jeux éducatif sur l'apprentissage du tri selectif au travers du nettoyage des plages",
+      "Educational games on learning selective sorting through beach cleaning",
   },
   {
     id: 12,
@@ -166,10 +166,9 @@ const databeach = [
       dates: ["jj-mm-aaaa"],
       users: [],
     },
-    desc: "Connu à travers le monde, la grande plage de Biarritz réunies des milliers de touristes chaques années, avec son casino Barriere et sa vue époustouflante.",
+    desc: "Known throughout the world, La Grande Plage of Biarritz brings together thousands of tourists every year, with its Barriere casino and its breathtaking view.",
     img: "./assets/beach-img/grandeplageb.jpg",
-    missions:
-      "Ramassage des déchets et sensibilisation au réchauffement climatique",
+    missions: "Waste collection and awareness of global warming",
   },
   {
     id: 13,
@@ -180,9 +179,9 @@ const databeach = [
       dates: ["jj-mm-aaaa"],
       users: [],
     },
-    desc: "Incroyable plage pour apprendre à surfer, elle disparait lors des marées hautes mais offrent des vagues de qualité pour les apprentis.",
+    desc: "Incredible beach for learning to surf, it disappears during high tides but offers quality waves for beginners.",
     img: "./assets/beach-img/cotedesbasques.jpg",
-    missions: "Nettoyage du littorale et pique nique",
+    missions: "Coastal clean-up and picnic",
   },
   {
     id: 14,
@@ -193,10 +192,9 @@ const databeach = [
       dates: ["jj-mm-aaaa"],
       users: [],
     },
-    desc: "Petite plage VIP pour les locaux biarrots, remplie de surfer d'une autre époque. Entre amis ou en famille c'est le lieu idéal pour se ressourcer",
+    desc: "Small VIP beach for Biarritz locals, full of surfers from another era. With friends or family, it's the ideal place to relax",
     img: "./assets/beach-img/marbella.jpg",
-    missions:
-      "Ramassage des déchets et sensibilisation au réchauffement climatique",
+    missions: "Waste collection and awareness of global warming",
   },
   {
     id: 15,
@@ -207,9 +205,9 @@ const databeach = [
       dates: ["jj-mm-aaaa"],
       users: [],
     },
-    desc: "Grande plage très fréquentée par les Biarrots. Promenade aménagée en bord de mer . Aire de jeux pour les enfants. Activité Handiplage avec tiralos et Handisurf avec accès direct à la mer. A marée montante, le shore break peut être assez brutal.",
+    desc: "Large beach very popular with Biarrots. Walkway by the sea. Playground for children. Handiplage activity with tiralos and Handisurf with direct access to the sea. At rising tide, the shore break can be quite brutal. ",
     img: "./assets/beach-img/milady.jpg",
-    missions: "Jeux éducatif pour apprendre le tri selectif aux plus jeunes",
+    missions: "Educational games to teach selective sorting to the youngest",
   },
   {
     id: 16,
@@ -220,9 +218,9 @@ const databeach = [
       dates: ["jj-mm-aaaa"],
       users: [],
     },
-    desc: "Sur un peu plus de 300m de sable, vous pourrez pleinement profiter de cette plage de la Côte Basque qui est surveillée pendant la saison estivale, de mi juin à fin octobre. Les sportifs pourront également s’adonner au golf sur un très beau parcours qui entoure & surplombe la plage.",
+    desc: "On just over 300m of sand, you can fully enjoy this beach on the Basque Coast which is supervised during the summer season, from mid-June to the end of October. Sports enthusiasts can also indulge in golf on a very beautiful course that surrounds & overlooks the beach.",
     img: "./assets/beach-img/ilbaritz.jpg",
-    missions: "Ramassage des déchets et valorisation du sport sur la santé",
+    missions: "Waste collection and promotion of sport on health",
   },
   {
     id: 17,
@@ -233,10 +231,10 @@ const databeach = [
       dates: ["jj-mm-aaaa"],
       users: [],
     },
-    desc: "La plage d'Erretegia se situe à proximité de Bidart Centre mais à l’écart du centre-ville dans un cadre verdoyant et naturel qui s’étend sur plusieurs centaines de mètres.",
+    desc: "Erretegia beach is located near Bidart Center but away from the city center in a green and natural setting that stretches for several hundred meters.",
     img: "./assets/beach-img/erretegia.jpg",
     missions:
-      "Jeux éducatif pour insiter les plus jeunes au respect de l'environnement",
+      "Educational games to encourage the youngest to respect the environment",
   },
   {
     id: 18,
@@ -247,9 +245,9 @@ const databeach = [
       dates: ["jj-mm-aaaa"],
       users: [],
     },
-    desc: "C’est une large plage de sable, la plus grande de la commune, mais également la plus accessible. Elle est labellisée Handiplage",
+    desc: "It is a wide sandy beach, the largest in the town, but also the most accessible. It is labeled Handiplage",
     img: "./assets/beach-img/luhabia.jpg",
-    missions: "Ramassage et revalorisation des déchets marins",
+    missions: "Collection and recovery of marine litter",
   },
   {
     id: 19,
@@ -260,10 +258,10 @@ const databeach = [
       dates: ["jj-mm-aaaa"],
       users: [],
     },
-    desc: "Plage privée Vias Plage. C'est une expérience à part que de découvrir le Bahia Beach Vias Plage Concentrés d'Indonésie et de contemporain nous transportent dans ce lieu zen et moderne, dépaysement garantie !",
+    desc: "Private beach Vias Plage. Discovering the Bahia Beach Vias Plage Concentrates of Indonesia and the contemporary transport us to this zen and modern place, a change of scenery guaranteed!",
     img: "./assets/beach-img/bahia.jpg",
     missions:
-      "Jeux éducatif pour insiter les plus jeunes au respect de l'environnement",
+      "Educational games to encourage the youngest to respect the environment",
   },
   {
     id: 20,
@@ -274,10 +272,10 @@ const databeach = [
       dates: ["jj-mm-aaaa"],
       users: [],
     },
-    desc: "La plage de Parlementia est la plage le plus au sud de Bidart, à la limite avec le village de Guéthary. Cette plage de sable est assez rocheuse et très prisée pour le surf. Le cadre est naturel et intimiste avec d’un côté les maisons basques de Bidart et de l’autre le petit village et le port de Guéthary.",
+    desc: "Parliamentia beach is the southernmost beach in Bidart, on the border with the village of Guéthary. This sandy beach is quite rocky and very popular for surfing. The setting is natural and intimate with a side the Basque houses of Bidart and on the other the small village and the port of Guéthary.",
     img: "./assets/beach-img/parlementia.jpg",
     missions:
-      "Jeux éducatif pour insiter les plus jeunes au respect de l'environnement",
+      "Educational games to encourage the youngest to respect the environment",
   },
   {
     id: 21,
@@ -288,9 +286,9 @@ const databeach = [
       dates: ["jj-mm-aaaa"],
       users: [],
     },
-    desc: "Cette plage de sable est toute proche des campings du quartier d’Acotz. Mini-golf au bord de la plage.",
+    desc: "This sandy beach is very close to the campsites in the Acotz district. Mini-golf by the beach.",
     img: "./assets/beach-img/mayarco.jpg",
-    missions: "Ramassage et revalorisation des déchets marins",
+    missions: "Collection and recovery of marine litter",
   },
   {
     id: 22,
@@ -301,10 +299,10 @@ const databeach = [
       dates: ["jj-mm-aaaa"],
       users: [],
     },
-    desc: "Cette plage est le coin préféré des surfeurs confirmés qui affronteront la vague gauche de rochers située un peu au large.",
+    desc: "This beach is the favorite spot for experienced surfers who will face the left wave of rocks located a little offshore.",
     img: "./assets/beach-img/lafintenia.jpg",
     missions:
-      "Jeux éducatif sur l'apprentissage du tri selectif au travers du nettoyage des plages",
+      "Educational games on learning selective sorting through beach cleaning",
   },
   {
     id: 23,
@@ -315,10 +313,10 @@ const databeach = [
       dates: ["jj-mm-aaaa"],
       users: [],
     },
-    desc: "C'est une plage tranquille où il est indispensable de venir avec son seau et son épuisette à marée basse pour chercher les crabes dans les rochers apparents.",
+    desc: "It is a quiet beach where it is essential to come with your bucket and landing net at low tide to look for crabs in the exposed rocks.",
     img: "./assets/beach-img/erromardie.jpg",
     missions:
-      "Jeux éducatif pour insiter les plus jeunes au respect de l'environnement",
+      "Educational games to encourage the youngest to respect the environment",
   },
   {
     id: 24,
@@ -329,10 +327,10 @@ const databeach = [
       dates: ["jj-mm-aaaa"],
       users: [],
     },
-    desc: "Au bord d’une des plus belles baies du monde, à deux minutes à pied de la Place Louis XIV et du port, la Grande Plage est la plage incontournable de Saint-Jean-de-Luz. Sable fin, plan d’eau calme protégé par trois digues, la plage idéale pour toute la famille et notamment avec des enfants en bas âge. S’y retrouvent plusieurs générations de luziens.",
+    desc: "At the edge of one of the most beautiful bays in the world, a two-minute walk from Place Louis XIV and the port, Grande Plage is the must-see beach in Saint-Jean-de-Luz. Fine sand, plan 'calm water protected by three dykes, the ideal beach for the whole family and especially with young children. Several generations of Luziens meet here.",
     img: "./assets/beach-img/grandeplagestjean.jpg",
     missions:
-      "Jeux éducatif sur l'apprentissage du tri selectif au travers du nettoyage des plages",
+      "Educational games on learning selective sorting through beach cleaning",
   },
   {
     id: 25,
@@ -343,9 +341,9 @@ const databeach = [
       dates: ["jj-mm-aaaa"],
       users: [],
     },
-    desc: "L'océan y est beaucoup plus calme que chez ses voisines de la Côte Basque grâce aux 3 digues construites au XIXème siècle et qui protègent la baie des assauts de la mer.",
+    desc: "The ocean is much calmer there than in its neighbors on the Basque Coast thanks to the 3 dikes built in the 19th century and which protect the bay from the assaults of the sea.",
     img: "./assets/beach-img/ciboure.jpg",
-    missions: "Ramassage et revalorisation des déchets marins",
+    missions: "Collection and recovery of marine litter",
   },
   {
     id: 26,
@@ -356,10 +354,10 @@ const databeach = [
       dates: ["jj-mm-aaaa"],
       users: [],
     },
-    desc: `Considérée comme "piste verte" pour apprendre le surf, elle est aussi labellisée "Handiplage", facilitant la baignade des personnes à mobilité réduite. Elle figure depuis 2015 dans le TOP 10 des meilleures plages françaises, sur le site d'avis Tripadvisor !`,
+    desc: `Considered as a "green run" for learning to surf, it is also labeled "Handiplage", making it easier for people with reduced mobility to swim. Since 2015, it has been in the TOP 10 of the best French beaches, on the Tripadvisor review site!`,
     img: "./assets/beach-img/hendaye.jpg",
     missions:
-      "Jeux éducatif sur l'apprentissage du tri selectif au travers du nettoyage des plages",
+      "Educational games on learning selective sorting through beach cleaning",
   },
 ];
 

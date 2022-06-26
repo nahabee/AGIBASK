@@ -1,5 +1,5 @@
 import NavBar from "./NavBar";
-import OceanEventCalendar from "./OceanEventCalendar";
+// import OceanEventCalendar from "./OceanEventCalendar";
 import { NavLink } from "react-router-dom";
 
 const OceanJoinEvent = () => {
@@ -38,7 +38,7 @@ const OceanJoinEvent = () => {
               market.{" "}
             </a>
           </p>
-          <OceanEventCalendar />
+          {/* <OceanEventCalendar /> */}
         </div>
       </div>
     </div>
