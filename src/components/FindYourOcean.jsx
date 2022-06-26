@@ -30,7 +30,7 @@ const FindYourOcean = () => {
           />
         </div>
         <div className="w-1/2 h-screen bg-blue-dark flex flex-col sm:w-screen ">
-          <h1 className="font-title text-white mt-24 text-center uppercase text-4xl border-y border-blue-gold p-2 sm:mt-0">
+          <h1 className="font-title text-white mt-20 text-center uppercase text-4xl border-y border-blue-gold p-2 sm:mt-0">
             {" "}
             Choose your spot{" "}
           </h1>

@@ -1,5 +1,5 @@
 import NavBar from "./NavBar";
-// import OceanEventCalendar from "./OceanEventCalendar";
+import OceanEventCalendar from "./OceanEventCalendar";
 import { NavLink } from "react-router-dom";
 
 const OceanJoinEvent = () => {
@@ -7,10 +7,10 @@ const OceanJoinEvent = () => {
     <div className="h-screen w-screen bg-blue-dark ">
       <NavBar />
       <div className="flex flex-col items-left">
-        <h1 className="font-title text-6xl mt-20 text-white text-center border-y p-5 border-blue-gold">
+        <h1 className="font-title text-6xl mt-16 text-white text-center border-y p-5 border-blue-gold">
           WELCOME TO THE CURRENT EVENTS SPACE.{" "}
         </h1>
-        <div className="flex mt-10 justify-center">
+        <div className="flex mt-6 justify-center">
           <p className="text-white text-xl text-justify font-body p-5 w-2/5 ">
             <span className="text-2xl font-title uppercase">Here</span> you can
             join the teams already created. Choose the date that suits you, the
@@ -18,7 +18,7 @@ const OceanJoinEvent = () => {
             organizer beforehand and ask him all the questions you need! And if
             you can't find anything, don't hesitate to{" "}
             <NavLink
-              className="text-cyan-400 uppercase hover:underline hover:decoration-1 font-title underline-offset-4"
+              className="text-blue-gold uppercase hover:underline hover:decoration-1 font-title underline-offset-4"
               to="/OceanCreateCleaning"
             >
               create
@@ -38,7 +38,7 @@ const OceanJoinEvent = () => {
               market.{" "}
             </a>
           </p>
-          {/* <OceanEventCalendar /> */}
+          <OceanEventCalendar />
         </div>
       </div>
     </div>
