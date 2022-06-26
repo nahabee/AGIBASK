@@ -21,6 +21,10 @@ module.exports = {
       borderRadius: {
         large: "50px",
       },
+      scale: {
+        175: "1.75",
+        200: "2.00",
+      },
       colors: {
         green: {
           dark: "#020f01",

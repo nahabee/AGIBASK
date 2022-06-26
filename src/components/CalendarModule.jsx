@@ -6,7 +6,7 @@ function CalendarModule() {
   const [date, setDate] = useState(new Date());
 
   return (
-    <div className="font-body text-white border border-blue-gold w-2/5 p-8 text-2xl rounded-lg sm:w-auto sm:p-0 ">
+    <div className="font-body text-white border border-blue-gold p-8 text-2xl rounded-lg sm:w-auto sm:p-0 ">
       <Calendar
         className="font-title text-center uppercase "
         onChange={setDate}

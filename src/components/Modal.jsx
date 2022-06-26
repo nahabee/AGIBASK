@@ -7,7 +7,7 @@ export default function Modal() {
       <button
         type="button"
         onClick={() => setShowModal(true)}
-        className="hover:bg-blue-gold font-title uppercase border border-blue-gold p-3 rounded-lg text-2xl text-white my-5"
+        className="hover:bg-blue-gold font-title uppercase border border-blue-gold p-3 rounded-lg text-2xl text-white my-5 mx-5"
       >
         {" "}
         Create{" "}
@@ -22,7 +22,7 @@ export default function Modal() {
                 {/*header*/}
                 <div className="flex justify-between p-5 border-b border-solid rounded-t">
                   <h3 className="text-3xl font-title text-blue-gold uppercase text-center">
-                    Congrat's Event Created
+                    Congrat's Event Almost Created
                   </h3>
                   <button
                     className="p-1 ml-auto bg-transparent border-0 text-black float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
@@ -50,7 +50,7 @@ export default function Modal() {
                     type="button"
                     onClick={() => setShowModal(false)}
                   >
-                    Close
+                    Edit
                   </button>
                   <button
                     className="border border-cyan-400 text-blue-gold active:bg-blue-gold font-title uppercase text-2xl px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
@@ -63,7 +63,7 @@ export default function Modal() {
               </div>
             </div>
           </div>
-          <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
+          <div className=" fixed inset-0 z-40 backdrop-blur-sm"></div>
         </>
       ) : null}
     </>
