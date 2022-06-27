@@ -11,10 +11,9 @@ const dataforest = [
         ["Adrastée ", "Adrienne", "Agathe"],
       ],
     },
-    desc: "Ses voies vertes sillonnent la forêt d'est en ouest et du nord au sud. Elles offrent d'infinies possibilités de circuits improvisés pour votre plus grand bonheur. Le parcours santé du Pignada propose un parcours sportif de 2 583 m.",
+    desc: "Its greenways crisscross the forest from east to west and from north to south. They offer endless possibilities for improvised circuits for your greatest pleasure. The Pignada health course offers a 2,583 m sports course.",
     img: "../public/assets/forest-img/chiberta.jpg",
-    missions:
-      "Ramassage des déchets et des préventions qu'on les feux de forêts",
+    missions: "Collection of waste and prevention of forest fires",
   },
   {
     id: 2,
@@ -28,10 +27,10 @@ const dataforest = [
         ["Albertine"],
       ],
     },
-    desc: "Anglet est le point de rencontre de l’océan et de la forêt. Situé à deux pas des plages, cet espace boisé de 250 hectares couvre près de 10% de la superficie de la commune et comprend les forêts du Pignada et du Lazaret. Il offre un espace aménagé, ombragé et frais, propice aux promenades et à la pratique de nombreuses activités sportives. ",
+    desc: "Anglet is the meeting point of the ocean and the forest. Located a stone's throw from the beaches, this wooded area of 250 hectares covers nearly 10% of the area of the town and includes the forests of Pignada and Lazaret. It offers a landscaped, shady and cool space, suitable for walks and the practice of many sports activities. ",
     img: "../public/assets/forest-img/pignada.jpg",
     missions:
-      "Promenage en forêt avec guide pour vous présenter les différentes plantes",
+      "Walk in the forest with a guide to introduce you to the different plants",
   },
   {
     id: 3,
@@ -41,10 +40,10 @@ const dataforest = [
       dates: ["jj-mm-aaaa"],
       users: [],
     },
-    desc: "Situé à deux pas des plages, cet espace boisé de 250 hectares couvre près de 10% de la superficie de la commune et comprend les forêt du Pignada et du Lazaret.",
+    desc: "Located a stone's throw from the beaches, this wooded area of 250 hectares covers nearly 10% of the area of the town and includes the forests of Pignada and Lazaret.",
     img: "../public/assets/forest-img/lazaret.jpg",
     missions:
-      "Sensibilisation à l'impact humain sur l'environnement au travers de différents jeux",
+      "Awareness of the human impact on the environment through different games",
   },
 
   {
@@ -55,10 +54,10 @@ const dataforest = [
       dates: ["20-05-2022"],
       users: [["Anthony"]],
     },
-    desc: "Forêt au coeur du pays Basque, pour balades et randonnées",
+    desc: "Forest in the heart of the Basque country, for walks and hikes",
     img: "./assets/forest-img/hasparren.jpg",
     missions:
-      "Balade en forêt avec jeux pour sensibiliser sur les biens-faits du sport",
+      "Walk in the forest with games to raise awareness of the benefits of sport",
   },
   {
     id: 5,
@@ -68,10 +67,10 @@ const dataforest = [
       dates: ["04-06-2022", "10-06-2022"],
       users: [["Anthony"], ["Fred"]],
     },
-    desc: "Au sud ouest de la commune et sur une superficie de 650 hectares, la forêt d'Ustaritz est l'endroit idéal pour se mettre au vert. Une belle promenade agrémentée de tables de pique-nique.",
+    desc: "To the southwest of the town and over an area of 650 hectares, the Ustaritz forest is the ideal place to go green. A beautiful walk with picnic tables.",
     img: "../public/assets/forest-img/ustaritz.jpg",
     missions:
-      "Balade en forêt avec jeux pour sensibiliser sur les biens-faits du sport",
+      "Walk in the forest with games to raise awareness of the benefits of sport",
   },
 
   {
@@ -82,9 +81,9 @@ const dataforest = [
       dates: ["jj-mm-aaaa"],
       users: [],
     },
-    desc: "Forêt aux essences végétales variées, parfaite pour balade en famille.",
+    desc: "Forest with various plant species, perfect for a family outing.",
     img: "./assets/forest-img/urt.jpg",
-    missions: "Ramassage et revalorisation des déchets ",
+    missions: "Collection and recycling of waste",
   },
   {
     id: 7,
@@ -94,10 +93,10 @@ const dataforest = [
       dates: ["18-05-2022", "24-05-2022", "04-06-2022"],
       users: [["Jérome"], ["Afred", "Hubert"], ["Stéphane", "Jimmy"]],
     },
-    desc: "Bois très dense aux chemins sinueux au tour du golf de Chantaco",
+    desc: "Very dense wood with winding paths around the golf course of Chantaco",
     img: "../public/assets/forest-img/fagosse.jpg",
     missions:
-      "Balade en forêt avec jeux pour sensibiliser sur les biens-faits du sport",
+      "Walk in the forest with games to raise awareness of the benefits of sport",
   },
   {
     id: 8,
@@ -107,10 +106,10 @@ const dataforest = [
       dates: ["jj-mm-aaaa"],
       users: [],
     },
-    desc: "Bois aux sentiers terreux, très humide avec beaucoup de champignons",
+    desc: "Wood with dirt trails, very humid with lots of mushrooms",
     img: "/assets/forest-img/saintpee.jpg",
     missions:
-      "Balade en forêt avec jeux pour sensibiliser sur les biens-faits du sport",
+      "Walk in the forest with games to raise awareness of the benefits of sport",
   },
   {
     id: 9,
@@ -120,9 +119,9 @@ const dataforest = [
       dates: ["jj-mm-aaaa"],
       users: [],
     },
-    desc: "Venez les découvrir au cours de visites pédestres guidées ou pas et observez en même temps la faune, la flore, les rapaces, et connaître l'histoire fabuleuse du lapin d'il y a 400 000 ans à nos jours...",
+    desc: "Come and discover them during walking tours, whether guided or not, and at the same time observe the fauna, flora, birds of prey, and learn about the fabulous history of the rabbit from 400,000 years ago to the present day... ",
     img: "../public/assets/forest-img/lapin.jpg",
-    missions: "Balade dans un parc à la découverte des lapins",
+    missions: "Stroll in a park to discover rabbits",
   },
   {
     id: 10,
@@ -132,10 +131,9 @@ const dataforest = [
       dates: ["jj-mm-aaaa"],
       users: [],
     },
-    desc: "Située aux portes de Bayonne et le long de la Nive, la Plaine d’Ansot est un espace naturel sensible de 100 hectares offrant un ilot de verdure en zone périurbaine. Intégré au réseau Natura 2000, ce site réglementé est une zone de barthes, constituée d'une mosaïque de milieux naturels (bois, prairies, roselières, cours d'eau…) abritant une flore et une faune particulières.",
+    desc: "Located at the gates of Bayonne and along the Nive, the Plaine d'Ansot is a sensitive natural area of 100 hectares offering an island of greenery in the peri-urban area. Integrated into the Natura 2000 network, this regulated site is a barthes, made up of a mosaic of natural environments (woods, meadows, reedbeds, waterways, etc.) sheltering a particular flora and fauna.",
     img: "../public/assets/forest-img/ansot.jpg",
-    mission:
-      "Ramassage des déchets et sensibilisation au réchauffement climatique",
+    mission: "Waste collection and awareness of global warming",
   },
 ];
 
