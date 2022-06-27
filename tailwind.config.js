@@ -31,6 +31,7 @@ module.exports = {
           medium: "#5f745f",
           light: "#91a491",
           gold: "#5e6700",
+          forest: "#293F33",
         },
         blue: {
           dark: "#04151c",

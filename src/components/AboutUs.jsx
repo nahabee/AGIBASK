@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Footer from "./Footer";
-import Subscribe from "./Subscribe";
+import Subscribe from "./about/Subscribe";
 
 import ReactPlayer from "react-player";
 
