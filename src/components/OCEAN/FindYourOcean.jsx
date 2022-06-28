@@ -67,7 +67,7 @@ const FindYourOcean = () => {
             </div>
           </div>
           <div className="mt-4 ">
-            <h1 className="font-title text-white text-center uppercase text-4xl border-y border-blue-gold p-2 -mt-16 sm:mt-20 ">
+            <h1 className="font-title text-white text-center uppercase text-4xl border-y border-blue-gold p-2 -mt-16 ">
               {" "}
               JOIN US{" "}
             </h1>
