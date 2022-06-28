@@ -1,5 +1,5 @@
 import NavBar from "../NavBar";
-import OceanEventCalendar from "../ocean/OceanEventCalendar";
+import ForestEventCalendar from "../forest/ForestEventCalendar";
 import { NavLink } from "react-router-dom";
 
 const ForestJoinEvent = () => {
@@ -38,7 +38,7 @@ const ForestJoinEvent = () => {
               market.{" "}
             </a>
           </p>
-          <OceanEventCalendar />
+          <ForestEventCalendar />
         </div>
       </div>
     </div>
