@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import EventModal from "../EventModal";
+import ForestEventModal from "../forest/ForestEventModal";
 
 const ForestEventCalendar = () => {
   return (
@@ -7,7 +7,7 @@ const ForestEventCalendar = () => {
       <header className="bg-none border-green-forest border rounded-lg space-y-4 p-4 ">
         <div className="flex items-center justify-between">
           <h2 className="font-title uppercase text-2xl text-white">Events</h2>
-          <NavLink to="/OceanCreateCleaning">
+          <NavLink to="/ForestCreateCleaning">
             <a className="hover:bg-green-light group flex items-center rounded-md bg-green-forest text-white text-sm font-title pl-2 pr-3 py-2 shadow-sm">
               <svg
                 width="20"
@@ -51,18 +51,26 @@ const ForestEventCalendar = () => {
         {/* event 1 */}
         <div className="bg-white p-4 border border-white rounded-lg  text-green-forest my-2 w-1/2    hover:border-green-dark">
           <h1 className="font-title uppercase text-center ">
-            Collection and recovery of marine litter
+            Stroll in a park.
           </h1>
           <h2 className="font-body ">
-            Meeting point in Anglet.
-            <br /> Departure scheduled for 1 p.m.
-            <br /> Date: 06/27/22
+            Meeting point in Bayonne.
+            <br /> Departure scheduled for 8 a.m.
+            <br /> Date: 07/09/22
           </h2>
           <div className="col-start-2 row-start-1 bg-none row-end-3 sm:mt-4 lg:mt-0 xl:mt-4 p-2    hover:border-green-dark">
             <div className="flex justify-end sm:justify-start lg:justify-end xl:justify-start -space-x-1.5">
               <div className="w-6 h-6 rounded-full ring-1 ring-white">
                 <img
-                  src="./assets/girl-users/lili.png "
+                  src="./assets/girl-users/Pamela.png "
+                  alt="user.name"
+                  className="scale-200 "
+                  loading="lazy"
+                />
+              </div>
+              <div className="w-6 h-6 rounded-full ring-1 ring-white">
+                <img
+                  src="./assets/girl-users/Stacy.png "
                   alt="user.name"
                   className="scale-200 "
                   loading="lazy"
@@ -70,19 +78,19 @@ const ForestEventCalendar = () => {
               </div>
             </div>
           </div>
-          <EventModal />
+          <ForestEventModal />
         </div>
         {/* event 1 */}
 
         {/* event 2 */}
         <div className="flex flex-col w-1/2 border border-white rounded-lg bg-white p-4  text-green-forest my-2    hover:border-green-dark">
           <h1 className="font-title uppercase text-center ">
-            Waste collection and awareness of global warming
+            Walk in the forest with games.
           </h1>
           <h2 className="font-body">
-            Meeting point in Biarritz.
+            Meeting point in Fagosse.
             <br /> Departure scheduled for 4 p.m.
-            <br /> Date: 09/17/22
+            <br /> Date: 09/28/22
           </h2>
 
           {/* users icon */}
@@ -90,7 +98,7 @@ const ForestEventCalendar = () => {
             <div className="flex justify-end sm:justify-start lg:justify-end xl:justify-start -space-x-1.5">
               <div className="w-6 h-6 rounded-full ring-1 ring-white">
                 <img
-                  src="./assets/man-users/un.png "
+                  src="./assets/man-users/quinze.png "
                   alt="user.name"
                   className="scale-200 "
                   loading="lazy"
@@ -98,7 +106,7 @@ const ForestEventCalendar = () => {
               </div>
               <div className="w-6 h-6 rounded-full ring-1 ring-white">
                 <img
-                  src="./assets/man-users/deux.png "
+                  src="./assets/man-users/sept.png "
                   alt="user.name"
                   className="scale-200 "
                   loading="lazy"
@@ -106,7 +114,7 @@ const ForestEventCalendar = () => {
               </div>
               <div className="w-6 h-6 rounded-full ring-1 ring-white">
                 <img
-                  src="./assets/man-users/trois.png "
+                  src="./assets/man-users/dix.png "
                   alt="user.name"
                   className="scale-200 "
                   loading="lazy"
@@ -123,7 +131,7 @@ const ForestEventCalendar = () => {
             </div>
           </div>
           {/* users icon end */}
-          <EventModal />
+          <ForestEventModal />
         </div>
         {/* event 2 */}
       </div>
@@ -131,19 +139,19 @@ const ForestEventCalendar = () => {
         {/* event 3 */}
         <div className="flex flex-col w-1/2 border border-white rounded-lg bg-white p-4 text-green-forest    hover:border-green-dark">
           <h1 className="font-title uppercase text-center  ">
-            Coastal clean-up and diner{" "}
+            Recycling of waste.{" "}
           </h1>
           <h2 className="font-body">
-            Meeting point in Bidart.
-            <br /> Departure scheduled for 5 p.m.
-            <br /> Date: 07/12/22
+            Meeting point in Urt.
+            <br /> Departure scheduled for 9 a.m.
+            <br /> Date: 11/12/22
           </h2>
           {/* users icon */}
           <div className="col-start-2 row-start-1 bg-none row-end-3 sm:mt-4 lg:mt-0 xl:mt-4 p-2    hover:border-green-dark">
             <div className="flex justify-end sm:justify-start lg:justify-end xl:justify-start -space-x-1.5">
               <div className="w-6 h-6 rounded-full ring-1 ring-white">
                 <img
-                  src="./assets/man-users/quatorze.png "
+                  src="./assets/man-users/douze.png "
                   alt="user.name"
                   className="scale-200 "
                   loading="lazy"
@@ -151,7 +159,7 @@ const ForestEventCalendar = () => {
               </div>
               <div className="w-6 h-6 rounded-full ring-1 ring-white">
                 <img
-                  src="./assets/man-users/treize.png "
+                  src="./assets/man-users/huit.png "
                   alt="user.name"
                   className="scale-200 "
                   loading="lazy"
@@ -159,7 +167,7 @@ const ForestEventCalendar = () => {
               </div>
               <div className="w-6 h-6 rounded-full ring-1 ring-white">
                 <img
-                  src="./assets/girl-users/lise.png "
+                  src="./assets/girl-users/jade.png "
                   alt="user.name"
                   className="scale-200 "
                   loading="lazy"
@@ -168,24 +176,24 @@ const ForestEventCalendar = () => {
             </div>
           </div>
           {/* users icon end */}
-          <EventModal />
+          <ForestEventModal />
         </div>
         {/* event 4 */}
         <div className="flex flex-col w-1/2 border border-white rounded-lg bg-white p-4 text-green-forest    hover:border-green-dark">
           <h1 className="font-title uppercase text-center ">
-            Coastal clean-up and picnic
+            Prevention of forest fires.
           </h1>
           <h2 className="font-body">
-            Meeting point in Guéthary.
+            Meeting point in Anglet.
             <br /> Departure scheduled for 12 a.m.
-            <br /> Date: 15/07/22
+            <br /> Date: 23/07/22
           </h2>
           {/* users icon */}
           <div className="col-start-2 row-start-1 bg-none row-end-3 sm:mt-4 lg:mt-0 xl:mt-4 p-2    hover:border-green-dark">
             <div className="flex justify-end sm:justify-start lg:justify-end xl:justify-start -space-x-1.5">
               <div className="w-6 h-6 rounded-full ring-1 ring-white">
                 <img
-                  src="./assets/man-users/neuf.png "
+                  src="./assets/girl-users/helene.png "
                   alt="user.name"
                   className="scale-200 "
                   loading="lazy"
@@ -193,7 +201,7 @@ const ForestEventCalendar = () => {
               </div>
               <div className="w-6 h-6 rounded-full ring-1 ring-white">
                 <img
-                  src="./assets/girl-users/Pamela.png "
+                  src="./assets/girl-users/romane.png "
                   alt="user.name"
                   className="scale-200 "
                   loading="lazy"
@@ -201,7 +209,7 @@ const ForestEventCalendar = () => {
               </div>
               <div className="w-6 h-6 rounded-full ring-1 ring-white">
                 <img
-                  src="./assets/man-users/quinze.png "
+                  src="./assets/man-users/vingt.png "
                   alt="user.name"
                   className="scale-200 "
                   loading="lazy"
@@ -226,7 +234,7 @@ const ForestEventCalendar = () => {
             </div>
           </div>
           {/* users icon end */}
-          <EventModal />
+          <ForestEventModal />
         </div>
       </div>
     </div>
