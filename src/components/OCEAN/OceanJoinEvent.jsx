@@ -29,9 +29,9 @@ const OceanJoinEvent = () => {
               Earn your eco badge after three monthly participations in events
             </a>
             <div className="flex w-1/2 -ml-20 -mt-16 pt-7 sm:hidden">
-              <img className=" " src="./assets/ecologo.png" />
-              <img className=" -ml-40 " src="./assets/ecologo2.png" />
-              <img className="-ml-40  " src="./assets/ecologo3.png" />
+              <img className=" " src="../assets/ecologo.png" />
+              <img className=" -ml-40 " src="../assets/ecologo2.png" />
+              <img className="-ml-40  " src="../assets/ecologo3.png" />
             </div>
             <a className="-mt-80 uppercase font-title text-2xl sm:hidden">
               After three badges, win a 25% voucher at the St Jean de Luz
