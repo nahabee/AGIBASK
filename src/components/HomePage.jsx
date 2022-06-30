@@ -8,7 +8,7 @@ const HomePage = () => {
         <div className="w-full h-full relative ">
           <img
             className="object-cover h-screen w-screen"
-            src="../public/assets/darkwave.jpg"
+            src="../assets/darkwave.jpg"
             alt="ocean"
           />
           <NavLink to="/Ocean">
@@ -18,14 +18,14 @@ const HomePage = () => {
           </NavLink>
           <img
             className="absolute top-[94%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-36  md:hidden"
-            src="../public/assets/scroll.png"
+            src="../assets/scroll.png"
             alt="scroll mouse"
           />
         </div>
         <div className="w-full h-full relative">
           <img
             className="object-cover h-screen w-screen "
-            src="../public/assets/greendark.jpg"
+            src="../assets/greendark.jpg"
             alt="foret"
           />
           <NavLink to="/Forest">

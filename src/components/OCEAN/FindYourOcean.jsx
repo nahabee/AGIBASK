@@ -20,12 +20,12 @@ const FindYourOcean = () => {
         <div className="w-1/2 h-full relative sm:w-screen ">
           <img
             className="object-cover h-screen w-screen"
-            src="../public/assets/oceandark.jpg"
+            src="../assets/oceandark.jpg"
             alt="ocean dark"
           />
           <img
             className="absolute top-[94%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-36 md:hidden"
-            src="../public/assets/scroll.png"
+            src="../assets/scroll.png"
             alt="scroll mouse"
           />
         </div>
@@ -67,7 +67,7 @@ const FindYourOcean = () => {
             </div>
           </div>
           <div className="mt-4 ">
-            <h1 className="font-title text-white text-center uppercase text-4xl border-y border-blue-gold p-2 -mt-16 ">
+            <h1 className="font-title text-white text-center uppercase text-4xl border-y border-blue-gold p-2 -mt-16 sm:mt-6">
               {" "}
               JOIN US{" "}
             </h1>

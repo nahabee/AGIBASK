@@ -31,6 +31,7 @@ const Subscribe = () => {
           required={true}
         />
         <button
+          type="button"
           className="inline-block mt-2 bg-green-gold hover:bg-white hover:text-green-gold hover:border-green-gold font-body px-6 py-2 rounded text-white shadow-lg"
           onClick={notify}
         >

@@ -7,7 +7,7 @@ const LandingPage = () => {
       <div className=" flex flex-col justify-start w-1/2 sm:hidden ">
         <img
           className="object-cover h-screen"
-          src="../public/assets/nature.jpg"
+          src="../assets/nature.jpg"
           alt="feuilles verts"
         />
       </div>
@@ -20,14 +20,14 @@ const LandingPage = () => {
         </p>
         <img
           className="object-cover h-screen md:hidden"
-          src="../public/assets/nature.jpg"
+          src="../assets/nature.jpg"
           alt="feuilles verts"
         />
         <div className="flex flex-row w-40 absolute bottom-0 right-60 ">
           <Link to="/Forest">
             <img
               className="absolute bottom-0 left-40 hover:scale-75 ease-in duration-500 sm:hidden "
-              src="../public/assets/nature.png"
+              src="../assets/nature.png"
               alt="logo feuille"
             />
           </Link>
@@ -36,14 +36,14 @@ const LandingPage = () => {
             {" "}
             <img
               className="absolute bottom-0  hover:scale-75 ease-in duration-500 sm:hidden"
-              src="../public/assets/monde.png"
+              src="../assets/monde.png"
               alt="logo planete"
             />{" "}
           </Link>
           <Link to="/Ocean">
             <img
               className="absolute bottom-0 right-40 hover:scale-75 ease-in duration-500 sm:hidden"
-              src="../public/assets/ocean.png"
+              src="../assets/ocean.png"
               alt="logo ocean"
             />
           </Link>
@@ -51,7 +51,10 @@ const LandingPage = () => {
       </div>
 
       <NavLink to="/Home">
-        <button className="font-title w-52 text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 p-5 rounded-full border border-white text-lg hover:tracking-widest ">
+        <button
+          type="button"
+          className="font-title w-52 text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 p-5 rounded-full border border-white text-lg hover:tracking-widest "
+        >
           GET STARTED
         </button>
       </NavLink>

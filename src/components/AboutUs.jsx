@@ -18,7 +18,7 @@ const AboutUs = () => {
       <div className="flex flex-col relative ">
         <div className="w-cover h-cover relative ">
           <ReactPlayer
-            url={"../public/assets/nature.mp4"}
+            url={"../assets/nature.mp4"}
             muted={true}
             width="100%"
             height="100%"
@@ -28,7 +28,7 @@ const AboutUs = () => {
           <Link to="/">
             <img
               className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer sm:w-[50%]"
-              src="../public/assets/logo.png"
+              src="../assets/logo.png"
               width="20%"
             />
           </Link>
