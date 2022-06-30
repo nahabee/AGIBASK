@@ -3,7 +3,7 @@ import EventModal from "../EventModal";
 
 const OceanEventCalendar = () => {
   return (
-    <div className="w-2/5">
+    <div className="w-2/5 sm:w-auto sm:bg-blue-dark">
       <header className="bg-none border-blue-gold border rounded-lg space-y-4 p-4 ">
         <div className="flex items-center justify-between">
           <h2 className="font-title uppercase text-2xl text-white">Events</h2>
@@ -22,7 +22,7 @@ const OceanEventCalendar = () => {
             </a>
           </NavLink>
         </div>
-        <form className="group relative">
+        <form className="group relative sm:hidden">
           <svg
             width="20"
             height="20"
@@ -47,7 +47,7 @@ const OceanEventCalendar = () => {
         </form>
       </header>
       {/* Div parente parente des blocs de projets */}
-      <div className="flex gap-3">
+      <div className="flex gap-3 ">
         {/* event 1 */}
         <div className="bg-white p-4 border border-white rounded-lg  text-blue-gold my-2 w-1/2    hover:border-blue-dark">
           <h1 className="font-title uppercase text-center ">

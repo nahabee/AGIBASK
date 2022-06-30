@@ -21,7 +21,7 @@ const FindYourForest = () => {
             {" "}
             Choose your spot{" "}
           </h1>
-          <div className="mt-8 gap-3 flex justify-center sm:flex sm:flex-wrap sm:gap-10 ">
+          <div className="mt-8 gap-3 flex justify-center sm:flex sm:flex-wrap sm:gap-5 sm:mt-4 ">
             {cityNames.map((city, index) => (
               <button
                 className="flex w-auto bg-none hover:bg-green-forest font-body border border-green-forest p-2 rounded-lg text-sm text-white sm:w-auto sm:h-10 sm:justify-center"
@@ -34,7 +34,7 @@ const FindYourForest = () => {
               </button>
             ))}
           </div>
-          <div className="w-full flex gap-6 snap-x snap-mandatory overflow-x-auto pb-14 scrollbar-hide sm:h-60 ">
+          <div className="w-full flex gap-6 snap-x snap-mandatory overflow-x-auto pb-14 scrollbar-hide  ">
             <div className="snap-end shrink-0 ">
               <div className="shrink-0 w-4 " />
             </div>
@@ -54,11 +54,11 @@ const FindYourForest = () => {
             </div>
           </div>
           <div className="mt-4 ">
-            <h1 className="font-title text-white text-center uppercase text-4xl border-y border-green-forest p-2 -mt-16 sm:mt-20 ">
+            <h1 className="font-title text-white text-center uppercase text-4xl border-y border-green-forest p-2 -mt-16 sm:mt-12 ">
               {" "}
               JOIN US{" "}
             </h1>
-            <div className="flex justify-around ">
+            <div className="flex justify-around sm:my-6 ">
               <NavLink to="/ForestCreateEvent">
                 <button className="hover:bg-green-forest font-body border border-green-forest p-2 rounded-lg text-sm text-white mt-8 sm:mt-5">
                   {" "}
@@ -78,13 +78,8 @@ const FindYourForest = () => {
         <div className="w-1/2 h-full relative sm:w-screen ">
           <img
             className="object-cover h-screen w-screen"
-            src="../public/assets/green.jpg"
+            src="../assets/green.jpg"
             alt="green forest"
-          />
-          <img
-            className="absolute top-[94%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-36 md:hidden"
-            src="../public/assets/scroll.png"
-            alt="scroll mouse"
           />
         </div>
         <div className="absolute top-0 ">

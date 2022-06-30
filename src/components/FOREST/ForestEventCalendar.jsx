@@ -3,11 +3,13 @@ import ForestEventModal from "../forest/ForestEventModal";
 
 const ForestEventCalendar = () => {
   return (
-    <div className="w-2/5">
-      <header className="bg-none border-green-forest border rounded-lg space-y-4 p-4 ">
-        <div className="flex items-center justify-between">
-          <h2 className="font-title uppercase text-2xl text-white">Events</h2>
-          <NavLink to="/ForestCreateCleaning">
+    <div className="w-2/5 sm:w-auto sm:bg-green-dark">
+      <header className="bg-none border-green-forest border rounded-lg space-y-4 p-2 sm:p-0 sm:space-y-0">
+        <div className="flex items-center justify-between sm:justify-center sm:gap-6">
+          <h2 className="font-title uppercase text-2xl text-white sm:text-center sm:my-4">
+            Events
+          </h2>
+          <NavLink to="/ForestCreateEvent">
             <a className="hover:bg-green-light group flex items-center rounded-md bg-green-forest text-white text-sm font-title pl-2 pr-3 py-2 shadow-sm">
               <svg
                 width="20"
@@ -22,7 +24,7 @@ const ForestEventCalendar = () => {
             </a>
           </NavLink>
         </div>
-        <form className="group relative">
+        <form className="group relative sm:hidden ">
           <svg
             width="20"
             height="20"
@@ -38,7 +40,7 @@ const ForestEventCalendar = () => {
           </svg>
           <div>
             <input
-              className="focus:ring-2 focus:ring-green-forest focus:outline-none appearance-none w-full text-sm leading-6 text-slate-900 placeholder-slate-400 rounded-md py-2 font-body pl-10 ring-1 ring-slate-200 shadow-sm"
+              className="focus:ring-2 focus:ring-green-forest focus:outline-none appearance-none w-full text-sm leading-6 text-slate-900 placeholder-slate-400 rounded-md py-2 font-body pl-10 ring-1 ring-slate-200 shadow-sm "
               type="text"
               aria-label="Filter events"
               placeholder="Filter events by city"
@@ -47,9 +49,9 @@ const ForestEventCalendar = () => {
         </form>
       </header>
       {/* Div parente parente des blocs de projets */}
-      <div className="flex gap-3">
+      <div className="flex gap-3 sm:w-auto sm:mx-6 sm:my-6">
         {/* event 1 */}
-        <div className="bg-white p-4 border border-white rounded-lg  text-green-forest my-2 w-1/2    hover:border-green-dark">
+        <div className="bg-white p-4 border border-white rounded-lg  text-green-forest my-2 w-1/2 hover:border-green-dark">
           <h1 className="font-title uppercase text-center ">
             Stroll in a park.
           </h1>
@@ -58,8 +60,8 @@ const ForestEventCalendar = () => {
             <br /> Departure scheduled for 8 a.m.
             <br /> Date: 07/09/22
           </h2>
-          <div className="col-start-2 row-start-1 bg-none row-end-3 sm:mt-4 lg:mt-0 xl:mt-4 p-2    hover:border-green-dark">
-            <div className="flex justify-end sm:justify-start lg:justify-end xl:justify-start -space-x-1.5">
+          <div className="col-start-2 row-start-1 bg-none row-end-3 sm:mt-4 lg:mt-0 xl:mt-4 p-2 hover:border-green-dark">
+            <div className="flex justify-end sm:justify-start lg:justify-end xl:justify-start -space-x-1.5 sm:mt-6">
               <div className="w-6 h-6 rounded-full ring-1 ring-white">
                 <img
                   src="./assets/girl-users/Pamela.png "
@@ -135,7 +137,7 @@ const ForestEventCalendar = () => {
         </div>
         {/* event 2 */}
       </div>
-      <div className="flex gap-3">
+      <div className="flex gap-3 sm:mx-6 sm:my-6">
         {/* event 3 */}
         <div className="flex flex-col w-1/2 border border-white rounded-lg bg-white p-4 text-green-forest    hover:border-green-dark">
           <h1 className="font-title uppercase text-center  ">
