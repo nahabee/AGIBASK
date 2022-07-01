@@ -29,7 +29,7 @@ const ForestJoinEvent = () => {
               Earn your eco badge after three monthly participations in events
             </a>
             <span className="flex w-1/2 -ml-20 -mt-16 pt-7 sm:hidden">
-              <img className=" sm:hidden" src="../assets/flogoUn.png " />
+              <img className=" sm:hidden" src="../assets/flogoUN.png " />
               <img
                 className="sm:hidden -ml-40 "
                 src="../assets/flogoDEUX.png"
