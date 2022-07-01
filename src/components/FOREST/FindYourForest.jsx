@@ -60,13 +60,13 @@ const FindYourForest = () => {
             </h1>
             <div className="flex justify-around sm:my-6 ">
               <NavLink to="/ForestCreateEvent">
-                <button className="hover:bg-green-forest font-body border border-green-forest p-2 rounded-lg text-sm text-white mt-8 sm:mt-5">
+                <button className="hover:bg-green-forest font-body border border-green-forest p-2 rounded-lg text-sm text-white mt-4 sm:mt-5">
                   {" "}
                   CREATE CLEANING SESSION{" "}
                 </button>
               </NavLink>
               <NavLink to="/ForestJoinEvent">
-                <button className="hover:bg-green-forest font-body border border-green-forest p-2 rounded-lg text-sm text-white mt-8 sm:mt-5">
+                <button className="hover:bg-green-forest font-body border border-green-forest p-2 rounded-lg text-sm text-white mt-4 sm:mt-5">
                   {" "}
                   JOIN CLEANING SESSION{" "}
                 </button>{" "}
