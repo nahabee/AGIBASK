@@ -2,7 +2,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const Subscribe = () => {
-  const notify = () => toast("Thank you, we will get back to you soon!");
+  const notify = () => toast("Thank you, we will get back to you soon");
   return (
     <form className="flex flex-col items-center sm:h-40">
       <div className="bg-none border border-green-gold w-full sm:h-3/4 p-6 pb-6 shadow-2xl rounded sm:border-hidden sm:p-0 sm:pb-2">
